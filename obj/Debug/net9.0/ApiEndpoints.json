@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "MyofficeApi.Controllers.MyofficeAcpdController",
+    "Method": "GetAll",
+    "RelativePath": "api/MyofficeAcpd",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyofficeApi.Controllers.MyofficeAcpdController",
+    "Method": "Create",
+    "RelativePath": "api/MyofficeAcpd",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "MyofficeApi.Models.MyOfficeAcpd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyofficeApi.Controllers.MyofficeAcpdController",
+    "Method": "Get",
+    "RelativePath": "api/MyofficeAcpd/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyofficeApi.Controllers.MyofficeAcpdController",
+    "Method": "Update",
+    "RelativePath": "api/MyofficeAcpd/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "entity",
+        "Type": "MyofficeApi.Models.MyOfficeAcpd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyofficeApi.Controllers.MyofficeAcpdController",
+    "Method": "Delete",
+    "RelativePath": "api/MyofficeAcpd/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
